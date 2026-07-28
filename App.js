@@ -4,12 +4,12 @@ import { createNativeStackNavigator } from '@react-navigation/native-stack';
 import { Button } from '@rneui/base';
 import { ThemeProvider, createTheme } from '@rneui/themed';
 
-import LoginScreen from './screens/Login.js'
-import HomeScreen from './screens/Home.js'
+import LoginScreen from './src/screens/Login.js'
+import HomeScreen from './src/screens/Home.js'
 
 const theme = createTheme({
 	lightColors: {
-		primary: '#e7e7e7',
+		primary: '#2882c8',
 	},
 	darkColors: {
 		primary: '#000',
