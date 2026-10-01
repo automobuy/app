@@ -1,10 +1,12 @@
-import { View, Text } from 'react-native';
+import { View, ScrollView, Text } from 'react-native';
 
 export default function() 
 {
-    return (
-        <View style={{ flex: 1, alignItems: 'center', justifyContent: 'center' }}>
-            <Text>Home Screen</Text>
-        </View>
-    );
+	return (
+		<ScrollView>
+		<View style={{ flex: 1, alignItems: 'center', justifyContent: 'center' }}>
+			<Text>Home Screen</Text>
+		</View>
+		</ScrollView>
+	);
 }
