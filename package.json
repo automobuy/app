@@ -1,7 +1,7 @@
 {
   "name": "automobuy",
   "version": "1.0.0",
-  "homepage": "https://automobuy.github.io/app",
+  "homepage": "https://automobuy.github.io/",
   "main": "index.js",
   "dependencies": {
     "@react-native-async-storage/async-storage": "^3.1.1",
